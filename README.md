@@ -1,17 +1,21 @@
-# Gemini Chat Application
+# GeminiClip
+Esta es una aplicación que utiliza la api de Gemini para hacer una simple solicitud y mostrar la respuesta en un recuadro.
 
-This is a simple chat application that uses Google's Gemini AI to generate responses.
+## Características
+- Escoger entre los diferentes modelos de Gemini disponibles.
+- Opción para incluir el contenido del portapapeles.
 
-## Features
-
-- Send instructions to Gemini and receive text responses.
-- Option to include the contents of your clipboard in the prompt.
-- Copy Gemini's responses to your clipboard.
-- Choose from different Gemini models (gemini-1.5-flash, gemini-1.5-pro, gemini-1.0-pro).
-
-## Installation
-
-1. **Install Python:** Make sure you have Python installed on your system.
-2. **Install Required Packages:** Install the necessary packages using pip:
-   ```bash
-   pip install -r requirements.txt
+## Como ejecutar
+1. **Instalar [Python](https://www.python.org/)**
+2. **Instalar los paquetes requeridos:** Instala los paquetes necesarios usando `pip`
+ ```bash
+pip install -r requirements.txt
+ ```
+3. **Obtener una API key de Gemini y colocarla en el programa:** 
+	1. Para obtener la clave ve a [Google AI Studio](https://aistudio.google.com/apikey)
+	2. Ejecuta el archivo `main.py` usando
+	```bash
+	python main.py
+   ```
+	3. En el programa haz click en el boton "API Key"
+	4. Introduce tu API Key en la en la ventana emergente y haz click en "Save"
